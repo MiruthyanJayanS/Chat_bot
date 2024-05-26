@@ -1,0 +1,34 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hello", "Is anyone there?", "Good day"],
+          "responses": ["Hello! How can I assist you with my portfolio today?"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye"],
+          "responses": ["Goodbye! Feel free to return if you have more questions."]
+      },
+      {
+          "tag": "about_me",
+          "patterns": ["Tell me about yourself", "Who are you?", "What do you do?"],
+          "responses": ["I'm a software developer with experience in web development, machine learning, and more. I love creating innovative solutions to complex problems."]
+      },
+      {
+          "tag": "projects",
+          "patterns": ["Tell me about your projects", "What projects have you worked on?", "Show me your projects"],
+          "responses": ["I've worked on a variety of projects, including a web app for tracking fitness goals, a machine learning model for predicting stock prices, and more. You can view details of my projects on the 'Projects' page."]
+      },
+      {
+          "tag": "skills",
+          "patterns": ["What are your skills?", "What languages do you know?", "What technologies can you use?"],
+          "responses": ["I'm proficient in several programming languages, including Python, JavaScript, and C++. I also have experience with web development technologies like HTML, CSS, and React, as well as machine learning libraries like TensorFlow and PyTorch."]
+      },
+      {
+          "tag": "contact",
+          "patterns": ["How can I contact you?", "What's your email?", "How can I reach you?"],
+          "responses": ["You can reach me at myemail@example.com, or through the contact form on my website."]
+      }
+  ]
+}
