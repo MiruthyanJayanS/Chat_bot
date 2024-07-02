@@ -1,5 +1,4 @@
-# Chat_bot
-Simple Chatbot for Portfolio websites
+# Simple Chatbot for Portfolio websites
 To Create:
 Step 1:
 ```
